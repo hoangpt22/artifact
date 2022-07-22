@@ -8,7 +8,7 @@ pipeline {
   stages{
     stage('build') {
       steps {
-        sh 'echo "Hello World" > hello.txt'
+        sh 'echo "Hello Hoang" > hello.txt'
       }
     }
     stage('archive') {
