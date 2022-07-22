@@ -8,7 +8,7 @@ pipeline {
   stages{
     stage('build') {
       steps {
-        sh 'echo "Hello Hoangg" > hello.txt'
+        sh 'echo "Hello Hoangg saved in S3" > hello.txt'
       }
     }
     stage('archive') {
